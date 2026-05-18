@@ -1,15 +1,68 @@
-# Ren'Py build outputs and cached data
-game/*.rpa
+# =========================
+# Ren'Py / Game files
+# =========================
+
+# Compiled Ren'Py files
 game/**/*.rpyc
+game/**/*.rpymc
+game/**/*.rpa
+
+# Cache / saves
 game/cache/
 game/saves/
 game/*.save
 
-# Python bytecode
+# Build outputs
+*.exe
+*.zip
+*.tar.gz
+
+# Ren'Py engine/runtime
+renpy/
+lib/
+update/
+
+# =========================
+# Translation workflow
+# =========================
+
+# Generated logs
+log.txt
+errors.txt
+traceback.txt
+
+# Temp/debug outputs
+*.tmp
+*.bak
+
+# Screenshots
+screenshot*.png
+
+# =========================
+# Python
+# =========================
+
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Windows noise
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# OS noise
+# =========================
+
 Thumbs.db
 Desktop.ini
+.DS_Store
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/

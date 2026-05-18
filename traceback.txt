@@ -1,11 +1,11 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/E4/E4_IRO_vietnamese.rpy", line 181, in script
-    old "As she said this, Isshiki stood beside me, grabbed my arms and rubbed them softly."
-  File "game/scripts/E4/E4_IRO_vietnamese.rpy", line 181, in script
-    old "As she said this, Isshiki stood beside me, grabbed my arms and rubbed them softly."
-Exception: A translation for "As she said this, Isshiki stood beside me, grabbed my arms and rubbed them softly." already exists at game/scripts/E4/E4_IRO_vietnamese.rpy:44.
+  File "game/scripts/E4/E4_IRO_vietnamese_AUTO.rpy", line 20, in script
+    old "(At least she got good reference. But if a conversation dies, you really go into a stalemate, huh?)"
+  File "game/scripts/E4/E4_IRO_vietnamese_AUTO.rpy", line 20, in script
+    old "(At least she got good reference. But if a conversation dies, you really go into a stalemate, huh?)"
+Exception: A translation for "(At least she got good reference. But if a conversation dies, you really go into a stalemate, huh?)" already exists at game/scripts/E4/E4_IRO_vietnamese.rpy:160.
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -14,20 +14,20 @@ Full traceback:
     renpy.main.main()
   File "D:\Oregairu\oregairuzokupc-0.9-win\renpy\main.py", line 558, in main
     renpy.game.context().run(node)
-  File "game/scripts/E4/E4_IRO_vietnamese.rpy", line 181, in script
-    old "As she said this, Isshiki stood beside me, grabbed my arms and rubbed them softly."
+  File "game/scripts/E4/E4_IRO_vietnamese_AUTO.rpy", line 20, in script
+    old "(At least she got good reference. But if a conversation dies, you really go into a stalemate, huh?)"
   File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "game/scripts/E4/E4_IRO_vietnamese.rpy", line 181, in script
-    old "As she said this, Isshiki stood beside me, grabbed my arms and rubbed them softly."
+  File "game/scripts/E4/E4_IRO_vietnamese_AUTO.rpy", line 20, in script
+    old "(At least she got good reference. But if a conversation dies, you really go into a stalemate, huh?)"
   File "D:\Oregairu\oregairuzokupc-0.9-win\renpy\ast.py", line 2751, in execute
     renpy.translation.add_string_translation(self.language, self.old, self.new, newloc)
   File "D:\Oregairu\oregairuzokupc-0.9-win\renpy\translation\__init__.py", line 475, in add_string_translation
     stl.add(old, new, newloc)
   File "D:\Oregairu\oregairuzokupc-0.9-win\renpy\translation\__init__.py", line 415, in add
     raise Exception("A translation for \"{}\" already exists at {}:{}.".format(
-Exception: A translation for "As she said this, Isshiki stood beside me, grabbed my arms and rubbed them softly." already exists at game/scripts/E4/E4_IRO_vietnamese.rpy:44.
+Exception: A translation for "(At least she got good reference. But if a conversation dies, you really go into a stalemate, huh?)" already exists at game/scripts/E4/E4_IRO_vietnamese.rpy:160.
 
 Windows-10-10.0.26200 AMD64
 Ren'Py 8.0.3.22090809
 Oregairu Zoku 0.9
-Mon May 18 21:58:45 2026
+Tue May 19 00:40:36 2026
