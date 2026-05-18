@@ -1,0 +1,15 @@
+# Ren'Py build outputs and cached data
+game/*.rpa
+game/**/*.rpyc
+game/cache/
+game/saves/
+game/*.save
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Windows noise
+Thumbs.db
+Desktop.ini
