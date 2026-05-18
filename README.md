@@ -1,40 +1,55 @@
-# Oregairu Zoku PC
+# Oregairu Zoku PC Translation Project
 
 ## Purpose
 
-This project aims to faithfully recreate the Oregairu VN in English on PC using the Ren'py engine. This is a fan project. All assets are the property and copyright of Mages Publishing.
+This repository contains fan-made translation tools, scripts, and workflow utilities for creating an English/Vietnamese Ren'Py-compatible translation patch for the Oregairu visual novel.
 
-## Routes to Finish (In Order)
+This is a non-commercial fan project and is not affiliated with or endorsed by the original copyright holders.
 
-1. Saki Route
-   - Finished!
-   - Build 0.2 was distributed on 9/4
-2. Yukino Route
-   - Finished!
-3. Haruno Route
-   - Finished!
-4. Iroha Route
-   - Finished!
-5. Hiratsuka Route
-   - Finished!
-6. Yui Route
-   - Finished!
-7. Yumiko Route
-   - ETA unknown
+All original game assets, scripts, audio, images, characters, and trademarks belong to their respective owners, including MAGES. and related rights holders.
 
-## File management TODO
+A legally obtained copy of the original game is required.
 
-1. SFX throughout the entire game
-2. Change upscaler for backgrounds, too much exposure
-3. Find file for the student council line in the valentines day scene
+## Project Status
 
-## Tools for Translation
+1. Saki Route — Finished
+2. Yukino Route — Finished
+3. Haruno Route — Finished
+4. Iroha Route — Finished
+5. Hiratsuka Route — Finished
+6. Yui Route — Finished
+7. Yumiko Route — In Progress
 
-- `tools/extract_text.py`: Extracts dialogue from `.rpy` files into a CSV for translation.
-- `tools/generate_translation.py`: Generates a translated `.rpy` file from the CSV
-- `tools/report_cleanup_coverage.py`: Compares source and translation `.rpy` files to report coverage and placeholders.
-- `tools/game_test.py`: Basic parser test to check for missing translations or syntax errors.
+## Repository Contents
 
-## Workflow for New Routes
+This repository primarily contains:
 
-Read INSTRUCTION.md and TEMPLATE_WORKFLOW_ROUTE.md for detailed instructions on how to translate a new route using the tools provided.
+- Translation workflow tools
+- CSV extraction/generation scripts
+- Ren'Py translation pipeline utilities
+- Translation patch files
+
+Original commercial game assets are not included.
+
+## Translation Tools
+
+- `tools/extract_text.py`
+  Extract dialogue from `.rpy` files into CSV format.
+
+- `tools/generate_translation.py`
+  Generate translated `.rpy` files from CSV data.
+
+- `tools/report_cleanup_coverage.py`
+  Validate translation coverage and placeholder handling.
+
+- `tools/game_test.py`
+  Run parser and syntax validation checks for generated files.
+
+## Workflow
+
+See:
+
+- `INSTRUCTION.md`
+- `TEMPLATE_WORKFLOW_ROUTE.md`
+
+for the full translation workflow and route pipeline documentation.
