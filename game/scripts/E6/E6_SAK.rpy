@@ -1,0 +1,107 @@
+label E6_SAK_01:
+    scene skyA with Fade(1.0, 0.5, 1.5)
+    play music "audio/bgm/BGM18.ogg"
+    window auto show dissolve
+    "After that, Kawasaki and I became college students, albeit separately, and continued to visit each other's houses with our respective siblings. Eventually, we started living in a small apartement together a few "
+    "months ago."
+    "I often recall the embarrassed look on her face when she said she wanted to make a room for her little sister."
+    voice "audio/voice/E6/SAK/01/HA/HA000.ogg"
+    hachiman "Kawasaki, here's your bento."
+    "I learned to cook from Kawasaki and was able to handle some of the cooking duties, albeit only simple ones."
+    voice "audio/voice/E6/SAK/01/SA/SA000.ogg"
+    saki "Oh, thanks... I'll make tonight's dinner, then."
+    voice "audio/voice/E6/SAK/01/HA/HA001.ogg"
+    hachiman "Sure. I'll come straight after my lecture, okay?"
+    voice "audio/voice/E6/SAK/01/SA/SA001.ogg"
+    saki "Okay. I'm leaving, then."
+    voice "audio/voice/E6/SAK/01/HA/HA002.ogg"
+    hachiman "Alright."
+    "As I watched Kawasaki leave for school in a hurry, I finished cleaning up and headed to school myself."
+    hachiman "(I think Komachi said she was coming over today...)"
+    window auto hide dissolve
+    stop music fadeout 1.0
+    scene sakiKitchena with Fade(1.0, 0.5, 1.0)
+    play music "audio/bgm/BGM50.ogg"
+    window auto show dissolve
+    voice "audio/voice/E6/SAK/01/HA/HA003.ogg"
+    hachiman "Keika, how was school today?"
+    voice "audio/voice/E6/SAK/01/KE/KE000.ogg"
+    keika "Umm... it was fine, nothing special."
+    voice "audio/voice/E6/SAK/01/HA/HA004.ogg"
+    hachiman "Is that right? Well, if there's ever anything you don't understand, you can always tell me."
+    voice "audio/voice/E6/SAK/01/KE/KE001.ogg"
+    keika "Okay. I guess I will."
+    hachiman "(I know she's just getting older, but I'm a little sad that he doesn't like me as much as before..."
+    hachiman "(... I mean, she's starting to act a bit like her sister. No, that's alright though.)"
+    "I complained internally, knowing too well that having her going back to be a child would be an impossible wish. Time waits for no man."
+    voice "audio/voice/E6/SAK/01/SA/SA002.ogg"
+    saki "Hikigaya, lay these out for me over there."
+    voice "audio/voice/E6/SAK/01/HA/HA005.ogg"
+    hachiman "Sure."
+    "While replying, I quickly wiped the table before taking the plates from Kawasaki."
+    voice "audio/voice/E6/SAK/01/TA/TA000.ogg"
+    taishi "Nee-chan and onii-san look like they're already married!"
+    voice "audio/voice/E6/SAK/01/HA/HA006.ogg"
+    hachiman "Quit it, we're not married yet. I mean, don't casually jump into the conversation. Who the hell are you, anyway?"
+    voice "audio/voice/E6/SAK/01/SA/SA003.ogg"
+    saki "Hikigaya, this one too."
+    hachiman "(No, that's no good. You can't just pretend like you didn't hear that.)"
+    voice "audio/voice/E6/SAK/01/HA/HA007.ogg"
+    hachiman "Sure."
+    voice "audio/voice/E6/SAK/01/KO/KO000.ogg"
+    komachi "That'd be nice~. I want you two to come visit the Hikigaya house, too!"
+    "Komachi, looking comfortable in her high school uniform, looks at me with upturned eyes. Even though she acts spoiled just to mock me, it's undeniabely cute. In fact, it's always been and always will be cute."
+    voice "audio/voice/E6/SAK/01/HA/HA008.ogg"
+    hachiman "What're you complaining about? You're here all the time anyway."
+    voice "audio/voice/E6/SAK/01/HA/HA009.ogg"
+    hachiman "Oh yeah, Keika. Why don't you and Komachi come play at our place next time?"
+    "I call out to Keika, who has been somewhat distant lately."
+    voice "audio/voice/E6/SAK/01/KE/KE002.ogg"
+    keika "It doesn't really matter. You'll just hang out with Saa-chan."
+    hachiman "(What, does she hate me now? Or is she having a rebellious phase?)"
+    voice "audio/voice/E6/SAK/01/HA/HA010.ogg"
+    hachiman "Keika, you're so cold to me..."
+    voice "audio/voice/E6/SAK/01/KE/KE003.ogg"
+    keika "Because it's so unfair you only care about Saa-chan. ...Kei-chan wanted you to be her boyfriend, too."
+    hachiman "(What's the matter with this girl!? Man, girls sure do grow up fast...)"
+    show sakiKitchenb with dissolve
+    voice "audio/voice/E6/SAK/01/SA/SA004.ogg"
+    saki "Hey! What did you do to Keika!?"
+    voice "audio/voice/E6/SAK/01/HA/HA011.ogg"
+    hachiman "I-I didn't do anything. And I have absolutely no reason to!"
+    voice "audio/voice/E6/SAK/01/KE/KE004.ogg"
+    keika "You used to take Keika's chocolates..."
+    hide sakiKitchenb with dissolve
+    voice "audio/voice/E6/SAK/01/SA/SA005.ogg"
+    saki "Oh. That's what it is..."
+    voice "audio/voice/E6/SAK/01/KE/KE005.ogg"
+    keika "But, if Haa-chan becomes my onii-chan, I can live with that."
+    show sakiKitchenc with dissolve
+    voice "audio/voice/E6/SAK/01/SA/SA006.ogg"
+    saki  "S-slow down, we're not even married yet!"
+    voice "audio/voice/E6/SAK/01/TA/TA001.ogg"
+    taishi "Nee-chan, you always get embarrassed easily."
+    voice "audio/voice/E6/SAK/01/KO/KO001.ogg"
+    komachi "I know, right~? And onii-chan still doesn't call her by her first name. Why don't you call her \"Saki\", onii-chan?"
+    voice "audio/voice/E6/SAK/01/KE/KE006.ogg"
+    keika "Hey, why don't you call him Haa-chan too, Saa-chan?"
+    hachiman "(Hey, this is getting kinda embarrassing...)"
+    window auto hide dissolve
+    show sakiKitchenc at topleft with dissolve:
+        zoom 1.3
+    window auto show dissolve
+    voice "audio/voice/E6/SAK/01/SA/SA007.ogg"
+    saki "H-Hikigaya! It's almost time for the steamed egg custard!"
+    voice "audio/voice/E6/SAK/01/HA/HA012.ogg"
+    hachiman "R-Right... Ouch!"
+    hide sakiKitchenc with dissolve
+    voice "audio/voice/E6/SAK/01/SA/SA008.ogg"
+    saki "Ah. It's hot, so don't touch it with your bare hands."
+    voice "audio/voice/E6/SAK/01/HA/HA013.ogg"
+    hachiman "You're right. Sorry."
+    "We exchange wry smiles as I accept the potholder that Kawasaki hurriedly hands to me."
+    window auto hide dissolve
+    stop music fadeout 2.0
+    scene sakiEnding with Fade(2.0, 1.0, 1.0, color="#fff")
+    call game_over("Kawasaki Saki") from _call_game_over
+    return

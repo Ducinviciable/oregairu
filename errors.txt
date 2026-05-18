@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/E4/E4_IRO_vietnamese.rpy", line 179: expected 'hash' not found.
+    translate vietnamese:
+                        ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Mon May 18 21:46:29 2026
