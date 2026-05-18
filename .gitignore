@@ -1,68 +1,72 @@
 # =========================
-# Ren'Py / Game files
+# Release-safe repository scope
 # =========================
 
-# Compiled Ren'Py files
-game/**/*.rpyc
-game/**/*.rpymc
-game/**/*.rpa
+# Keep only the Vietnamese translation patch tree from game/
+game/**
+!game/tl/
+!game/tl/vietnamese/
+!game/tl/vietnamese/**/*.rpy
 
-# Cache / saves
-game/cache/
-game/saves/
-game/*.save
-
-# Build outputs
-*.exe
-*.zip
-*.tar.gz
-
-# Ren'Py engine/runtime
+# Ren'Py runtime / original content
 renpy/
 lib/
 update/
+oregairuzokupc.py
+game/add_assets/
+game/scripts/
+game/cache/
+game/saves/
+game/*.save
+game/*.rpyc
+game/**/*.rpyc
+game/*.rpa
+game/**/*.rpa
+game/*.exe
+game/script.rpy
+game/utilities.rpy
+game/zz_vietnamese.rpy
+game/script_version.txt
+game/presplash_*.png
 
-# =========================
-# Translation workflow
-# =========================
+# Build outputs and binaries
+*.exe
+*.dll
+*.zip
+*.tar.gz
+*.7z
+build/
+dist/
 
-# Generated logs
+# Translation workflow logs and diagnostics
 log.txt
 errors.txt
 traceback.txt
-
-# Temp/debug outputs
+*.log
 *.tmp
 *.bak
 
 # Screenshots
 screenshot*.png
+screenshots/
 
-# =========================
-# Python
-# =========================
-
+# Python cache / virtualenvs
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
+*.py[cod]
 .venv/
 venv/
 env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.cache/
 
-# =========================
 # OS noise
-# =========================
-
 Thumbs.db
 Desktop.ini
 .DS_Store
 
-# =========================
 # IDE
-# =========================
-
 .vscode/
 .idea/
