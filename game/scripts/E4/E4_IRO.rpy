@@ -1,4 +1,7 @@
 label E4_IRO_01:
+    python:
+        renpy.change_language("vietnamese")
+
     scene scouncilroomA with Fade(2.0, 1.0, 2.0)
     play music "audio/bgm/BGM29.ogg"
     show iroha school mid_center vhappy at center with dissolve:
