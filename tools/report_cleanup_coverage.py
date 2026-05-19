@@ -54,7 +54,7 @@ def extract_old_entries(path):
 
 def extract_commented_old_entries(path):
     text = Path(path).read_text(encoding='utf-8')
-    commented = re.findall(r'^[ \t]*#.*old\s+"((?:[^"\\]|\\.)*)"', text, flags=re.MULTILINE | re.DOTALL)
+    commented = re.findall(r'^[ \t]*#.*old\s+"((?:[^"\\]|\\.)*)"', text, flags=re.MULTILINE)
     flagged = []
     for item in commented:
         raw = unescape_renpy_string(item).strip()
