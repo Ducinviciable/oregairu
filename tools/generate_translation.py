@@ -103,15 +103,18 @@ def generate_translation_file(
 
     with csv_file.open("r", encoding="utf-8", newline="") as handle:
         reader = csv.DictReader(handle)
-        for row in reader:
+        for row_num, row in enumerate(reader, start=2): # start=2 vì dòng 1 là header
             original = (row.get("original") or "").strip()
             vietnamese = (row.get("vietnamese") or "").strip()
 
             if not original or not vietnamese:
+                print(f"⚠️ [Dòng {row_num}] Bỏ qua vì TRỐNG (Original hoặc Vietnamese). Original text: '{original}'")
                 continue
             if original in seen_originals:
+                print(f"⚠️ [Dòng {row_num}] Bỏ qua vì TRÙNG LẶP trong chính file CSV: '{original}'")
                 continue
             if skip_existing_manual and original in existing_old_strings:
+                print(f"⚠️ [Dòng {row_num}] Bỏ qua vì ĐÃ ĐƯỢC DỊCH ở một file khác: '{original}'")
                 continue
 
             seen_originals.add(original)
@@ -160,7 +163,7 @@ def main() -> None:
         print(f"❌ Không tìm thấy file CSV: {csv_file}")
         return
 
-    print(f"📝 Đang generate translation file từ: {csv_file}")
+    print(f"📝 Đang generate translation file từ: {csv_file}....")
     generate_translation_file(
         csv_file=csv_file,
         output_rpy=output_rpy,
@@ -169,9 +172,6 @@ def main() -> None:
     )
 
     print(f"\n✨ Hoàn tất! File dịch: {output_rpy}")
-    print("\n📌 Tiếp theo:")
-    print("1. Copy file vào game/scripts/<route>/")
-    print("2. Chạy game và chọn Tiếng Việt")
 
 
 if __name__ == "__main__":

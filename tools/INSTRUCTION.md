@@ -33,6 +33,8 @@ Kết quả là một file CSV với các cột:
 - `original`
 - `vietnamese`
 
+Mở TEPLATE đở biết chi tiết cách làm
+
 ### 2. Dịch CSV
 
 Mở file CSV trong Excel, LibreOffice Calc, Google Sheets hoặc VS Code và điền cột `vietnamese`.
